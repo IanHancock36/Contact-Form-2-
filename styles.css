@@ -1,0 +1,30 @@
+
+div.form{
+    display: block;
+    text-align:center;
+}
+/*  text-align: center : center all items within body, this property is inherited */
+/* text-align: left: left-align the CONTENTS all items within body, additionally
+you can add this text-align: left property to all element manually */
+/* display: inline-block: reduces the width of the form to only what is necessary */
+
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.firstName{
+    font-size: 18px;
+    color: aqua;
+}
+
+ .button{
+    border-radius: 4px;
+    background-color: #444;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+}
+
