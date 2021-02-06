@@ -1,4 +1,11 @@
-
+body {
+    background-image: url("zebraprintbackgroung.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100%;
+  
+}
+  
 div.form{
     display: block;
     text-align:center;
@@ -19,7 +26,10 @@ form{
     font-size: 18px;
     color: aqua;
 }
-
+.businessName{
+    font-size: 18px;
+    color: aqua;
+}
  .button{
     border-radius: 4px;
     background-color: #444;
@@ -28,3 +38,13 @@ form{
     text-align: center;
 }
 
+h1{
+    color: whitesmoke;
+}
+/* going to do a different style MIAMI VICE COLOR SCHEME Bright Colors 
+ ERROR MESSAGE SHOULD BE A 80's style script 
+ * make the "Contact Us" have two outlines behind it 
+ so something like pink text color and blue and white outline around it 3d 
+background should be a little wild too maybe neon tiger stripes or something
+
+*/
