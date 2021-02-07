@@ -2,16 +2,19 @@ const name = document.getElementById('name')
 const businessName = document.getElementById('businessname')
 const emailName = document.getElementById('emailaddress')
 const phoneNumber = document.getElementById('phonenumber')
+const errorElement = document.getElementById('error')
+const mainForm = document.getElementById('mainform')
+
 
 // need to do an event listener to listen to the individual 
 // id's to check the keys match with what you want and 
 // if not return error messages. 
 // 
-form.addEventListener('submit',(event) => {
+mainForm.addEventListener('submit',(event) => {
 let messages = [];
 
 
-if (name.value ==="" || name.value == "null"){
+if (name.value === " " || name.value == "null"){
     messages.push("Name is Required")
 }
 if(businessName.value.length <=3 ){
@@ -45,3 +48,9 @@ if(phoneNumber.value.length <= 10 ){
 
 //the event.preventDefault preventDefault() method cancels the event if it is cancelable,
 // meaning that the default action that belongs to the event will not occur.
+
+//The join() method returns the array as a string.
+//The elements will be separated by a specified separator. The default separator is comma (,).
+
+
+

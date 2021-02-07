@@ -1,5 +1,5 @@
 body {
-    background-image: url("zebraprintbackgroung.jpg");
+    background-color: #FFFDD0;
     background-repeat: no-repeat;
     background-size: cover;
   height: 100%;
@@ -39,7 +39,10 @@ form{
 }
 
 h1{
-    color: whitesmoke;
+    color:#ff6ec7;
+}
+#error{
+    color: seagreen
 }
 /* going to do a different style MIAMI VICE COLOR SCHEME Bright Colors 
  ERROR MESSAGE SHOULD BE A 80's style script 
